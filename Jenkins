@@ -3,7 +3,7 @@ pipeline {
     environment {
         DIRECTORY_PATH = '/path/to/my/codefile'    
         TESTING_ENVIRONMENT = 'QA'
-        PRODUCTION_ENVIRONMENT = 'Chittatosh'      
+        PRODUCTION_ENVIRONMENT = 'Chittatosh'     
     }
     stages {
         stage('Build') {
